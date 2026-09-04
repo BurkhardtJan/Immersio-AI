@@ -15,7 +15,7 @@ DEFAULT_EMBEDDING_KEY = os.environ.get("EMBEDDING_KEY", "text-embedding-3-small"
 
 
 CHAT_MODELS = {
-    "openai": "gpt-4o-mini",
+    "openai": "gpt-5-mini",
     "groq": "llama-3.3-70b-versatile",
     "gemini": "gemini-2.5-flash-lite",
     "ollama": "dolphin-llama3:latest",
